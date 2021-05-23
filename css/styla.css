@@ -1024,6 +1024,11 @@ footer h6 {
     .news-sec marquee {
         font-size: 16px;
     }
+    .ads img {
+        display: block;
+        padding-bottom: 20px;
+        margin: auto;
+    }
     .contact-sec .content h4 {
         font-size: 16px;
         margin-top: 30px;
@@ -1072,7 +1077,7 @@ footer h6 {
         flex-flow: column;
     }
     .services .service-img {
-        margin-right: 20px;
+       margin: auto;
         position: relative;
         width: 250px;
         height: 250px;
