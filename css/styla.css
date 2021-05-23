@@ -499,6 +499,10 @@ footer .fright a {
 footer h5 {
     font-size: 20px;
     margin: 20px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: column;
 }
 
 footer a {
@@ -509,6 +513,8 @@ footer a {
 
 footer h5::after {
     content: "";
+    justify-content: flex-start;
+    align-items: flex-start;
     display: block;
     border-bottom: 1px solid white;
     width: 30px;
@@ -760,7 +766,6 @@ footer h6 {
      .item .hall {
          height: 250px;
          width: 220px;
-         /* margin-left: 10px; */
      }
     .about img {
         margin: 90px 0;
@@ -806,7 +811,6 @@ footer h6 {
         right: 70px;
     }
     .review .para p {
-        /* margin-right: 230px; */
         width: 300px;
         font-size: 10px;
     }
@@ -953,14 +957,12 @@ footer h6 {
     }
    .service-img {margin:auto;}
    .review .para p {
-    /* margin-right: 100px; */
     width: 300px;
     font-size: 10px;
 }
 .review .item img {
     height: 50px;
     width: 50px;
-    /* margin-left: 210px; */
 }
 .owl-prev {
     top: 5%;
@@ -994,8 +996,9 @@ footer h6 {
         margin-right: 80px;
         margin-bottom: 10px;
     }
-    footer h5::after{
-       margin-right: 210px;
+    footer h5{
+       justify-content: center;
+       align-items: center;
     }
 
 }
@@ -1063,11 +1066,16 @@ footer h6 {
     }
     .services{
         margin-bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
     }
     .services .service-img {
+        margin-right: 20px;
         position: relative;
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
         margin-bottom: 30px;
     }
     .review .item p{
@@ -1090,8 +1098,9 @@ footer h6 {
     footer{
         text-align: center;
     }
-   footer h5:after{
-       margin-right: 100px;
+   footer h5{
+      justify-content: center;
+      align-items: center;
    }
       footer iframe {
         width: 250px;
